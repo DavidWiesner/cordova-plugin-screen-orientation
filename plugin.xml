@@ -52,15 +52,6 @@
                 <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
             </feature>
         </config-file>
-
-        <dependency id="es6-promise-plugin" version="^4.1.0" />
-
-    </platform>
-
-    <platform name="windows">
-        <js-module src="src/windows/CDVOrientationProxy.js" name="CDVOrientationProxy">
-            <merges target="" />
-        </js-module>
     </platform>
 
 </plugin>
